@@ -20,5 +20,5 @@ from ingredients.views import ingredient_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('ingredients.urls')),
+    url(r'^ingredients', include('ingredients.urls')),
 ]
